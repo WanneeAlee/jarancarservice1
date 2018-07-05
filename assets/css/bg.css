@@ -1,0 +1,91 @@
+.head-bar{
+	background-color: #072a47;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+.head-pading{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bg{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #7cccc2;
+	color: #3a4346;
+}
+/* Start AboutUs Css Style  */
+.about-boxes .about-box {
+  position: relative;
+  cursor: pointer;
+  text-align: center; }
+  .about-boxes .about-box .about-icon {
+    /*font-size: 35px;*/
+    position: relative;
+    border: 1px solid #dfdfdf;
+    padding: 5px 15px;
+    /*margin: 10px 0;*/
+    display: inline-block;
+    -moz-transition: color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out; }
+    .about-boxes .about-box .about-icon:before, .about-boxes .about-box .about-icon:after {
+      width: 0;
+      height: 0;
+      content: "";
+      position: absolute;
+      z-index: 0;
+      border: 1px solid transparent; }
+    .about-boxes .about-box .about-icon:before {
+      top: 0;
+      left: 0; }
+    .about-boxes .about-box .about-icon:after {
+      bottom: 0;
+      right: 0; }
+    .about-boxes .about-box .about-icon i {
+      font-size: 30px;
+      -moz-transition: all 0.25s ease-in-out;
+      -webkit-transition: all 0.25s ease-in-out;
+      -o-transition: all 0.25s ease-in-out;
+      transition: all 0.25s ease-in-out;
+      color: #00bcd4; }
+    .about-boxes .about-box .about-icon .about-box h4 {
+      margin-top: 0;
+      color: #00bcd4;
+      text-transform: capitalize;
+      margin-bottom: 10px; }
+  .about-boxes .about-box:hover .about-icon:before,
+  .about-boxes .about-box:hover .about-icon:after {
+    width: 100%;
+    height: 100%; }
+  .about-boxes .about-box:hover .about-icon:before {
+    border-top-color: #00bcd4;
+    border-right-color: #00bcd4;
+    -moz-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    -o-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s; }
+  .about-boxes .about-box:hover .about-icon:after {
+    border-bottom-color: #00bcd4;
+    border-left-color: #00bcd4;
+    -moz-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+    -o-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+    -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
+
+  .padding-s{
+  padding-top: 70px;
+  padding-bottom: 70px
+}
+
+/* End AboutUs Css Style  */
+@media(max-width:1024px){
+
+}
+@media(max-width:768px){
+<
+}
+@media(max-width:414px){
+
+}

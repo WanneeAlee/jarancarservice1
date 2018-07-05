@@ -1,0 +1,97 @@
+
+.colorred{
+	color: #ff4141;
+	font-weight: 400;
+}
+
+.colorred02{
+	color: #ff4141;
+	font-weight: 500;
+}
+.bg-white{
+	background-color: #fff;
+}
+
+.bg{
+	background-color: #efeff0;
+	background: url(../images/bg.jpg) no-repeat bottom center;
+	background-attachment: fixed;
+}
+
+.bg-gray{
+	background-color: #efeff0;
+	
+}
+
+.colorwhite{
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.martop{
+	margin-top: -26px;
+}
+
+@media(max-width:768px) {   /*sm*/
+
+body {
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6f6f6f;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: -1px;
+    margin-bottom: 0px;
+}
+	.colorwhite {
+		margin-top: 7px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #fff;
+	}
+
+	.imgcat{
+		width: 70%;
+	}
+
+	.category-menu ul li {
+		list-style: none;
+		cursor: pointer;
+		float: left;
+		/* margin-top: 11px; */
+		background-color: #00aeef;
+		/* padding-top: 22px; */
+		color: #fff;
+		padding: 13px 0 0 0;
+		height: 106px;
+		width: 117px;
+		border: solid 1px;
+		margin-left: -1px;
+		-webkit-transition: background-color 0.3s ease-in;
+		-moz-transition: background-color 0.3s ease-in;
+		-o-transition: background-color 0.3s ease-in;
+		transition: background-color 0.3s ease-in;
+	}
+
+
+  } /* ปิด*/
