@@ -9,11 +9,11 @@ class Product extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        if (! isset($_SESSION["user_username"])) 
-        {
+        // if (! isset($_SESSION["user_username"])) 
+        // {
             
-            redirect('cwcontrol');
-        }
+        //     redirect('cwcontrol');
+        // }
         $this->load->model('Model_product');
     }
 

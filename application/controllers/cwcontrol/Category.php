@@ -8,11 +8,11 @@ class Category extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        if(!isset($_SESSION["user_username"]))
-        {
-            redirect('cwcontrol');
+        // if(!isset($_SESSION["user_username"]))
+        // {
+        //     redirect('cwcontrol');
             
-        }
+        // }
          $this->load->model('Model_category');
     }
     

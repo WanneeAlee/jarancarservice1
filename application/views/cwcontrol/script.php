@@ -14,7 +14,7 @@
     <link href="theme/bootstrap-select-1.12.2/css/bootstrap-select.css" rel="stylesheet">
     <link href="theme/bootstrap-datetimepicker/bootstrap-datetimepicker.css" rel="stylesheet">
 	<link href="theme/lightbox-master/ekko-lightbox.css" rel="stylesheet">
-    <link href="theme/css/custom_switch.css" rel="stylesheet">
+    <!-- <link href="theme/css/custom_switch.css" rel="stylesheet"> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

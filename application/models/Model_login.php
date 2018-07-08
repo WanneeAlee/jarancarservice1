@@ -6,6 +6,7 @@ class Model_login extends CI_Model {
     public function __construct()
     {
         parent::__construct();
+        // $this->load->library('session');
         
     }
     public function index()
@@ -34,8 +35,11 @@ class Model_login extends CI_Model {
      set_cookie("username_log", "", time()-3600);
      set_cookie("password_log", "", time()-3600);
     }
+
     $_SESSION["user_username"] = $strUsername;
-    
+
+    // echo $_SESSION["user_username"];
+    // die();
     echo "true";
     
    }else{
